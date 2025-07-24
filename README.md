@@ -20,4 +20,11 @@ After installation done, let's enter our ubuntu system with `distrobox enter ubu
 Starting container...                   	 [ OK ]
 Installing basic packages...   
 ```
-Wait until the installation complete, and let's continue to the next step
+Wait until the installation complete, and let's continue to the next step. To enter the distribution named `ubuntu` you can do this:
+```bash
+distrobox enter ubuntu
+```
+And now, let's try to do update & upgrade, if it's working then you already on ubuntu linux distribution cuz as you may know that apt command not available on arch linux.
+```bash
+sudo apt update && sudo apt upgrade
+```
